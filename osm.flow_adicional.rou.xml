@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-02 01:44:15 by Eclipse SUMO netedit Version 1.16.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vType id="delivery_delivery2" vClass="passenger" carFollowModel="KraussPS"/>
+    <flow id="flow_adicional1" begin="0.00" from="1014684308" to="13797599#4" end="3600.00" vehsPerHour="50.00" color="blue" type="delivery_delivery2"/>
+    <flow id="flow_adicional2" begin="0.00" from="1014684308" to="453761207#1" end="3600.00" vehsPerHour="50.00" color="blue" type="delivery_delivery2"/>
+    <flow id="flow_adicional3" begin="0.00" from="1016548269" to="910431582" end="3600.00" vehsPerHour="100.00" color="blue" type="delivery_delivery2"/>
+
+    <flow id="flow_adicional4" begin="32400.00" from="1014684308" to="13797599#4" end="39600.00" vehsPerHour="50.00" color="blue" type="delivery_delivery2"/>
+    <flow id="flow_adicional5" begin="32400.00" from="1014684308" to="453761207#1" end="39600.00" vehsPerHour="50.00" color="blue" type="delivery_delivery2"/>
+    <flow id="flow_adicional6" begin="32400.00" from="1016548269" to="910431582" end="39600.00" vehsPerHour="100.00" color="blue" type="delivery_delivery2"/>
+</routes>
+
+<!-- deixar essas linhas guardadas aqui para não precisar ficar sempre botando de volta
+<vType id="bus_bus" vClass="bus" carFollowModel="KraussPS" color="red"/>
+<vType id="bike_bicycle" vClass="bicycle" carFollowModel="KraussPS" color="cyan"/>
+<vType id="deliveryrand_delivery" vClass="delivery" carFollowModel="KraussPS" color="gray"/>
+<vType id="motorcycle_motorcycle" vClass="motorcycle" carFollowModel="KraussPS" color="127,255,0"/>
+<vType id="veh_passenger" vClass="passenger" carFollowModel="KraussPS" color="yellow"/>
+<vType id="truck_truck" vClass="truck" carFollowModel="KraussPS" color="black"/>
+ -->

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-12 21:00:34 by Eclipse SUMO netedit Version 1.16.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus" carFollowModel="KraussPS" vClass="bus" />
+    <flow id="bus_flow_600-1" begin="0.00" from="-13797599#4" to="-448867798#0" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="HSM3" duration="30"/>
+        <stop busStop="CONS3" duration="30"/>
+        <stop busStop="VFM7" duration="30"/>
+        <stop busStop="CSP1" duration="30"/>
+        <stop busStop="ADA4" duration="30"/>
+    </flow>    
+    <flow id="bus_flow_600-2" begin="30.00" from="448867798#0" to="13797599#4" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="ADA3" duration="30"/>
+        <stop busStop="CSP2" duration="30"/>
+        <stop busStop="VFM6" duration="30"/>
+        <stop busStop="CNTT2" duration="30"/>
+        <stop busStop="HSM4" duration="30"/>
+    </flow>
+    <flow id="bus_flow_204-1" begin="60.00" from="741767469#0" to="252525258" end="39600.00" vehsPerHour="4.00" color="red" type="bus">
+        <stop busStop="BVLH3" duration="30"/>
+        <stop busStop="SVP2" duration="30"/>
+        <stop busStop="VFM3" duration="30"/>
+        <stop busStop="ACN1" duration="30"/>
+    </flow>
+    <flow id="bus_flow_204-2" begin="90.00" from="37345793" to="-741767469#0" end="39600.00" vehsPerHour="4.00" color="red" type="bus">
+        <stop busStop="CPL2" duration="30"/>
+        <stop busStop="VFM2" duration="30"/>
+        <stop busStop="SVP1" duration="30"/>
+        <stop busStop="BVLH1" duration="30"/>
+    </flow>    
+    <flow id="bus_flow_203-1" begin="120.00" from="1016548269" to="910431582" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="AQL1" duration="30"/>
+        <stop busStop="PISC" duration="30"/>
+        <stop busStop="BSB" duration="30"/>
+        <stop busStop="BCG" duration="30"/>
+        <stop busStop="SPTO1" duration="30"/>
+    </flow>
+    <flow id="bus_flow_203-2" begin="150.00" from="1014684308" to="13715562" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="OLM" duration="30"/>
+        <stop busStop="MRR2" duration="30"/>
+        <stop busStop="MTCV" duration="30"/>
+        <stop busStop="CTP" duration="30"/>
+        <stop busStop="AQL2" duration="30"/>
+    </flow>        
+    <flow id="bus_flow_402-1" begin="180.00" from="1016548269" to="1017147074#0" end="39600.00" vehsPerHour="4.00" color="red" type="bus">
+        <stop busStop="AQL1" duration="30"/>
+        <stop busStop="PISC" duration="30"/>
+        <stop busStop="BSB" duration="30"/>
+        <stop busStop="BCG" duration="30"/>
+        <stop busStop="SP" duration="30"/>
+    </flow>
+    <flow id="bus_flow_402-2" begin="210.00" from="-1017147074#0" to="13715562" end="39600.00" vehsPerHour="4.00" color="red" type="bus">
+        <stop busStop="MRR1" duration="30"/>
+        <stop busStop="MTCV" duration="30"/>
+        <stop busStop="CTP" duration="30"/>
+        <stop busStop="AQL2" duration="30"/>
+    </flow>
+    <flow id="bus_flow_304-1" begin="700.00" from="-13797599#4" to="-448867798#0" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="HSM3" duration="30"/>
+        <stop busStop="CONS3" duration="30"/>
+        <stop busStop="VFM7" duration="30"/>
+        <stop busStop="CSP1" duration="30"/>
+        <stop busStop="ADA4" duration="30"/>
+    </flow>
+    <flow id="bus_flow_304-2" begin="750.00" from="448867798#0" to="13797599#4" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="ADA3" duration="30"/>
+        <stop busStop="CSP2" duration="30"/>
+        <stop busStop="VFM6" duration="30"/>
+        <stop busStop="CNTT2" duration="30"/>
+        <stop busStop="HSM4" duration="30"/>
+    </flow>
+    <flow id="bus_flow_206-1" begin="800.00" from="1016548269" to="-741767469#0" end="39600.00" vehsPerHour="3.00" color="red" type="bus">
+        <stop busStop="CONS3" duration="30"/>
+        <stop busStop="VFM2" duration="30"/>
+        <stop busStop="SVP1" duration="30"/>
+        <stop busStop="BVLH1" duration="30"/>
+    </flow>
+    <flow id="bus_flow_206-2" begin="1000.00" from="-741767469#0" to="252525258" end="39600.00" vehsPerHour="3.00" color="red" type="bus">
+        <stop busStop="BVLH3" duration="30"/>
+        <stop busStop="SVP2" duration="30"/>
+        <stop busStop="VFM3" duration="30"/>
+        <stop busStop="ACN1" duration="30"/>
+    </flow>
+    <flow id="bus_flow_803-1" begin="1200.00" from="-212710696#1" to="-741767469#0" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="CPL" duration="30"/>
+        <stop busStop="VFM2" duration="30"/>
+        <stop busStop="SVP1" duration="30"/>
+        <stop busStop="BVLH1" duration="30"/>
+    </flow>
+    <flow id="bus_flow_803-2" begin="1230.00" from="741767469#0" to="212710696#1" end="39600.00" vehsPerHour="2.00" color="red" type="bus">
+        <stop busStop="BVLH3" duration="30"/>
+        <stop busStop="SVP2" duration="30"/>
+        <stop busStop="VFM3" duration="30"/>
+        <stop busStop="VFM1" duration="30"/>
+        <stop busStop="CPL1" duration="30"/>
+    </flow>        
+    <flow id="bus_flow_303-1" begin="1300.00" from="1016548269" to="1017147074#0" end="39600.00" vehsPerHour="1.00" color="red" type="bus">
+        <stop busStop="AQL1" duration="30"/>
+        <stop busStop="PISC" duration="30"/>
+        <stop busStop="BSB" duration="30"/>
+        <stop busStop="BCG" duration="30"/>
+        <stop busStop="SP" duration="30"/>
+    </flow>
+    <!-- <flow id="bus_flow_302-2" begin="1300.00" from="-1017147074#0" to="13715562" end="39600.00" vehsPerHour="1.00" color="red" type="bus">
+        <stop busStop="MRR1" duration="30"/>
+        <stop busStop="MTCV" duration="30"/>
+        <stop busStop="CTP" duration="30"/>
+        <stop busStop="AQL2" duration="30"/>
+    </flow> -->
+</routes>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-22 01:58:55 by Eclipse SUMO sumo Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.netbaseline.xml.gz"/>
+        <route-files value="osm.delivery1.rou.xml, osm_pt.rou.xml,osm.bicycle.rou.xml,osm.bus_manual.rou.xml,osm.deliveryrandom.rou.xml,osm.flow_adicional.rou.xml,osm.motorcycle.rou.xml,osm.passenger.rou.xml,osm.pedestrian.rou.xml,osm.truck.rou.xml"/>
+        <additional-files value="osm_stops.add.xml, osm.poly.xml.gz"/>
+    </input>
+
+    <output>
+        <human-readable-time value="true"/>
+        <tripinfo-output value="results/output-baseline-teste.xml"/>
+        <statistic-output value="true"/>
+    </output>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.explicit value="circuito_ice"/>
+    </emissions>
+
+    <tripinfo_device>
+        <device.tripinfo.probability value="0"/>
+    </tripinfo_device>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="18944" inserted="18944" running="0" waiting="0"/>
+    <teleports total="2" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="2" emergencyStops="0"/>
+    <persons loaded="4914" running="0" jammed="1"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="1" routeLength="23840.33" speed="0.90" duration="26599.00" waitingTime="533.00" timeLoss="1915.86" departDelay="0.00" departDelayWaiting="-1.00" totalTravelTime="07:23:19" totalDepartDelay="00:00:00"/>
+    <pedestrianStatistics number="4914" routeLength="930.43" duration="772.90" timeLoss="97.02"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

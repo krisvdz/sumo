@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-19 20:33:02 by Eclipse SUMO GUI Version 1.16.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <!-- <net-file value="osm.net.xml.gz"/> -->
+        <net-file value="osm.netbaseline.xml.gz"/>
+        <!-- <net-file value="osm.netaltitude0.xml.gz"/> -->
+        <!-- <net-file value="osm.netcentrohist.xml.gz"/> -->
+        <!-- assim estava originalmente, mas nao sei se faz sentido as vezes usar trip as vezes usar flow <route-files value="osm_pt.rou.xml,osm.bicycle.trips.xml,osm.bus.trips.xml,osm.motorcycle.trips.xml,osm.passenger.trips.xml,osm.pedestrian.rou.xml,osm.truck.trips.xml, osm.delivery.rou.xml, osm.flow_adicional.rou.xml, osm.deliveryrandom.trips.xml"/> -->
+        <!-- assim sao todos os arquivos de rotas, mas nao funcionam juntos <route-files value="osm_pt.rou.xml,osm_ptlines.xml,osm.bicycle.rou.xml,osm.bicycle.trips.xml,osm.delivery.rou.xml,osm.deliveryrandom.rou.xml,osm.deliveryrandom.trips.xml,osm.flow_adicional.rou.xml,osm.motorcycle.rou.xml,osm.motorcycle.trips.xml,osm.passenger.rou.xml,osm.passenger.trips.xml,osm.pedestrian.rou.xml,osm.pedestrian.trips.xml,osm.truck.rou.xml,osm.truck.trips.xml"/> -->
+        <route-files value="osm.delivery1.rou.xml, osm_pt.rou.xml,osm.bicycle.rou.xml,osm.bus_manual.rou.xml,osm.deliveryrandom.rou.xml,osm.flow_adicional.rou.xml,osm.motorcycle.rou.xml,osm.passenger.rou.xml,osm.pedestrian.rou.xml,osm.truck.rou.xml"/>
+        <additional-files value="osm_stops.add.xml, osm.poly.xml.gz"/>
+        <!-- 
+        se for usar osm.delivery(1 ou 2).rou.xml usar osm_stops.add.xml caso contrário usar osm_stops2.add.xml (sem onRoad)
+        delivery -> todos os 4 de uma vez
+        dellveryX -> apenas o veículo do tipo X 
+        -->
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</configuration>

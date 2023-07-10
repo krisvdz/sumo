@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-19 21:31:16 by Eclipse SUMO netedit Version 1.16.0 -->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<!-- Vehicles, persons and containers (sorted by depart) -->
+
+	<vType id="carrinha_ice" vClass="delivery" color="magenta" emissionClass="HBEFA4/LCV_diesel_N1-III_Euro-6d" length="4.75" width="2.1" height="1.85" accel="2.1" decel="3.6" maxSpeed="47.78" carFollowModel="KraussPS">
+		<param key="shutOffStopDuration" value="0"/>
+		<param key="has.tripinfo.device" value="true"/>
+		<param key="has.emission.device" value="true"/>
+	</vType>
+
+	<vType id="carrinha_eletrica" vClass="delivery" color="green" emissionClass="Energy" length="4.96" width="2.2" height="1.895" accel="2.12" decel="3.6" maxSpeed="36.11" carFollowModel="KraussPS">
+		<param key="shutOffStopDuration" value="0"/>		
+		<param key="has.tripinfo.device" value="true"/>
+		<param key="has.emission.device" value="true"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="airDragCoefficient" value="0.5"/>
+        <param key="frontSurfaceArea" value="4"/>
+        <param key="maximumBatteryCapacity" value="75000"/>
+        <param key="maximumPower" value="100000"/>
+        <param key="vehicleMass" value="3025"/>
+	</vType>
+
+	<vType id="ecargobike_large" vClass="moped" color="red" emissionClass="Energy" guiShape="rickshaw" length="2.74" width="0.7" height="1.1" accel="1" decel="2" maxSpeed="6.94" carFollowModel="KraussPS">
+		<param key="shutOffStopDuration" value="0"/>		
+		<param key="has.tripinfo.device" value="true"/>
+		<param key="has.emission.device" value="true"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="airDragCoefficient" value="0.1"/>
+        <param key="frontSurfaceArea" value="1"/>
+        <param key="maximumBatteryCapacity" value="500"/>
+        <param key="maximumPower" value="250"/>
+        <param key="vehicleMass" value="247"/>
+	</vType>
+	
+	<vType id="ecargobike_small" vClass="moped" color="blue" emissionClass="Energy" guiShape="rickshaw" length="2.03" width="0.7" height="1.1" accel="1.5" decel="3" maxSpeed="6.94" carFollowModel="KraussPS">
+		<param key="shutOffStopDuration" value="0"/>		
+		<param key="has.tripinfo.device" value="true"/>
+		<param key="has.emission.device" value="true"/>
+        <param key="has.battery.device" value="true"/>
+        <param key="airDragCoefficient" value="0.1"/>
+        <param key="frontSurfaceArea" value="1"/>
+        <param key="maximumBatteryCapacity" value="500"/>
+        <param key="maximumPower" value="250"/>
+        <param key="vehicleMass" value="168"/>
+	</vType>
+
+	
+	<trip id="circuito_ice" type="carrinha_ice" depart="300" departLane="best" from="E3" to="E3">
+		<stop parkingArea="pa_1" duration="240.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_2" duration="240.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_3" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_7" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_8" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_6" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_13" duration="120.00" />  	<!-- 1 pequena-->
+		<stop parkingArea="pa_26" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_31" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_36" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_0" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_19" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_20" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_10" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_15" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_16" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_21" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_4" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_12" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_14" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_9" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_5" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_29" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_22" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_24" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_23" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_25" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_33" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_49" duration="360.00" />	<!-- 2 grandes e 2 pequenas-->
+		<stop parkingArea="pa_32" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_18" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_27" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_30" duration="240.00" />	<!-- 1 grande-->
+		 <!-- 1/3 das entregas 54 encomendas							 0-->
+		<stop parkingArea="pa_28" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_17" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_34" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_52" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_35" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_51" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_44" duration="240.00" />	<!-- 1 grande e 2 pequenas-->
+		<stop parkingArea="pa_99" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_53" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_73" duration="120.00" />	<!-- 1 pequenas-->
+		<stop parkingArea="pa_72" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_98" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_75" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_76" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_74" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_95" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_92" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_93" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_94" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_88" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_71" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_87" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_89" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_91" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_90" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_96" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_97" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_55" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_54" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_42" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_43" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_47" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_82" duration="240.00" />	<!-- 1 grande--> 
+		<!-- 2/3 das entregas 54 encomendas							 	 0	-->							 
+		<stop parkingArea="pa_65" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_68" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_70" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_69" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_50" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_41" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_64" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_46" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_45" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_66" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_85" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_86" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_84" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_78" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_48" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_83" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_79" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_77" duration="240.00" />	<!-- 1 grande e 3 pequenas-->
+		<stop parkingArea="pa_62" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_63" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_67" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_81" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_80" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_58" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_57" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_56" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_37" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_38" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_39" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_60" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_40" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_59" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_11" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_61" duration="120.00" />	<!-- 1 pequena-->
+		<!-- 3/3 das entregas 55 encomendas-->
+	</trip>
+
+	<trip id="circuito_ele" type="carrinha_eletrica" depart="300" departLane="best" from="E3" to="E3">
+		<stop parkingArea="pa_1" duration="240.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_2" duration="240.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_3" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_7" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_8" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_6" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_13" duration="120.00" />  	<!-- 1 pequena-->
+		<stop parkingArea="pa_26" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_31" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_36" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_0" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_19" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_20" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_10" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_15" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_16" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_21" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_4" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_12" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_14" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_9" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_5" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_29" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_22" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_24" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_23" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_25" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_33" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_49" duration="360.00" />	<!-- 2 grandes e 2 pequenas-->
+		<stop parkingArea="pa_32" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_18" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_27" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_30" duration="240.00" />	<!-- 1 grande-->
+		 <!-- 1/3 das entregas 54 encomendas							 0-->
+		<stop parkingArea="pa_28" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_17" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_34" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_52" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_35" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_51" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_44" duration="240.00" />	<!-- 1 grande e 2 pequenas-->
+		<stop parkingArea="pa_99" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_53" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_73" duration="120.00" />	<!-- 1 pequenas-->
+		<stop parkingArea="pa_72" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_98" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_75" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_76" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_74" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_95" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_92" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_93" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_94" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_88" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_71" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_87" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_89" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_91" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_90" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_96" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_97" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_55" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_54" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_42" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_43" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_47" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_82" duration="240.00" />	<!-- 1 grande--> 
+		<!-- 2/3 das entregas 54 encomendas							 	 0	-->							 
+		<stop parkingArea="pa_65" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_68" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_70" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_69" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_50" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_41" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_64" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_46" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_45" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_66" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_85" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_86" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_84" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_78" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_48" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_83" duration="120.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_79" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_77" duration="240.00" />	<!-- 1 grande e 3 pequenas-->
+		<stop parkingArea="pa_62" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_63" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_67" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_81" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_80" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_58" duration="120.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_57" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_56" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_37" duration="360.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_38" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_39" duration="360.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_60" duration="120.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_40" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_59" duration="240.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_11" duration="240.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_61" duration="120.00" />	<!-- 1 pequena-->
+		<!-- 3/3 das entregas 55 encomendas-->
+	</trip>
+
+	<trip id="circuito_cargobike_l" type="ecargobike_large" depart="300" departLane="best" from="E3" to="E3"> 
+		<stop parkingArea="pa_1" duration="210.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_2" duration="210.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_3" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_7" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_8" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_6" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_13" duration="90.00" />  	<!-- 1 pequena-->
+		<stop parkingArea="pa_26" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_31" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_36" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_0" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_19" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_20" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_10" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_15" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_16" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_21" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_4" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_12" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_14" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_9" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_5" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_29" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_22" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_24" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_23" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_25" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_33" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_49" duration="315.00" />	<!-- 2 grandes e 2 pequenas-->
+		<stop parkingArea="pa_32" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_18" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_27" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_30" duration="210.00" />	<!-- 1 grande-->
+		 <!-- 1/3 das entregas 54 encomendas-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_28" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_17" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_34" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_52" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_35" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_51" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_44" duration="210.00" />	<!-- 1 grande e 2 pequenas-->
+		<stop parkingArea="pa_99" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_53" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_73" duration="90.00" />	<!-- 1 pequenas-->
+		<stop parkingArea="pa_72" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_98" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_75" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_76" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_74" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_95" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_92" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_93" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_94" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_88" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_71" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_87" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_89" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_91" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_90" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_96" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_97" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_55" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_54" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_42" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_43" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_47" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_82" duration="210.00" />	<!-- 1 grande--> 
+		<!-- 2/3 das entregas 54 encomendas-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_65" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_68" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_70" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_69" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_50" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_41" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_64" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_46" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_45" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_66" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_85" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_86" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_84" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_78" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_48" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_83" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_79" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_77" duration="210.00" />	<!-- 1 grande e 3 pequenas-->
+		<stop parkingArea="pa_62" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_63" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_67" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_81" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_80" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_58" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_57" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_56" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_37" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_38" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_39" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_60" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_40" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_59" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_11" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_61" duration="90.00" />	<!-- 1 pequena-->
+		<!-- 3/3 das entregas 55 encomendas-->
+	</trip>
+	
+	<trip id="circuito_cargobike_s" type="ecargobike_small" depart="300" departLane="best" from="E3" to="E3">
+		<stop parkingArea="pa_1" duration="210.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_2" duration="210.00" /> 	<!-- 1 grande-->
+		<stop parkingArea="pa_3" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_7" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_8" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_6" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_13" duration="90.00" />  	<!-- 1 pequena-->
+		<stop parkingArea="pa_26" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_31" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_36" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_0" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_19" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_20" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_10" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_15" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_16" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_21" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_4" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_12" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_14" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_9" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_5" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_29" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_22" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_24" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_23" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_25" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_33" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_49" duration="315.00" />	<!-- 2 grandes e 2 pequenas-->
+		<stop parkingArea="pa_32" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_18" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_27" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_30" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_28" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_17" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_34" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_52" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_35" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_51" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_44" duration="210.00" />	<!-- 1 grande e 2 pequenas-->
+		<stop parkingArea="pa_99" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_53" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_73" duration="90.00" />	<!-- 1 pequenas-->
+		<stop parkingArea="pa_72" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_98" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_75" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_76" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_74" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_95" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_92" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_93" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_94" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_88" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_71" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_87" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_89" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_91" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_90" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_96" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_97" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_55" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_54" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_42" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_43" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_47" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_82" duration="210.00" />	<!-- 1 grande--> 		 
+		<stop parkingArea="pa_65" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_68" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_70" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_69" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_50" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_41" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_64" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_46" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_45" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_66" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_85" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_86" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_84" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_78" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_48" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_83" duration="90.00" />	<!-- 3 pequenas-->
+		<stop parkingArea="pa_79" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_77" duration="210.00" />	<!-- 1 grande e 3 pequenas-->
+		<stop parkingArea="pa_62" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_63" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_67" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_81" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="warehouse" duration="600.00"/>	<!-- carregando mercadoria-->
+		<stop parkingArea="pa_80" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_58" duration="90.00" />	<!-- 2 pequenas-->
+		<stop parkingArea="pa_57" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_56" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_37" duration="315.00" />	<!-- 2 grandes-->
+		<stop parkingArea="pa_38" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_39" duration="315.00" />	<!-- 2 grandes e 1 pequena-->
+		<stop parkingArea="pa_60" duration="90.00" />	<!-- 1 pequena-->
+		<stop parkingArea="pa_40" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_59" duration="210.00" />	<!-- 1 grande e 1 pequena-->
+		<stop parkingArea="pa_11" duration="210.00" />	<!-- 1 grande-->
+		<stop parkingArea="pa_61" duration="90.00" />	<!-- 1 pequena -->
+	</trip>
+
+</routes>

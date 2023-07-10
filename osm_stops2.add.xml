@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-20 22:00:12 by Eclipse SUMO netedit Version 1.16.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="ACN1" lane="252525258_1" startPos="35.38" endPos="45.38" friendlyPos="true"/>
+    <busStop id="ADA3" lane="448867798#0_1" startPos="115.41" endPos="125.41" friendlyPos="true"/>
+    <busStop id="ADA4" lane="-448867798#0_1" startPos="183.09" endPos="193.09" friendlyPos="true"/>
+    <busStop id="AQL1" lane="1016548269_2" startPos="123.23" endPos="133.23" friendlyPos="true"/>
+    <busStop id="AQL2" lane="13715562_1" startPos="42.58" endPos="52.58"/>
+    <busStop id="BCG" lane="704509573#2_2" startPos="48.34" endPos="58.34" friendlyPos="true"/>
+    <busStop id="BSB" lane="704509573#0_2" startPos="37.16" endPos="47.16" friendlyPos="true"/>
+    <busStop id="BVLH1" lane="-39607956#5_1" startPos="115.78" endPos="125.78" friendlyPos="true"/>
+    <busStop id="BVLH2" lane="263330569_1" startPos="39.53" endPos="49.53" friendlyPos="true"/>
+    <busStop id="BVLH3" lane="741767469#2_1" startPos="34.74" endPos="44.74" friendlyPos="true"/>
+    <busStop id="CNTT2" lane="1016548268#1_1" startPos="24.08" endPos="34.08" friendlyPos="true"/>
+    <busStop id="CONS3" lane="-1016548268#1_1" startPos="76.37" endPos="86.37" friendlyPos="true"/>
+    <busStop id="CPL" lane="-212710696#0_1" startPos="65.32" endPos="75.32" friendlyPos="true"/>
+    <busStop id="CPL1" lane="30912883#2_1" startPos="39.08" endPos="49.08" friendlyPos="true"/>
+    <busStop id="CPL2" lane="37345793_1" startPos="90.05" endPos="100.05" friendlyPos="true"/>
+    <busStop id="CSP1" lane="-448867798#0_1" startPos="44.68" endPos="54.68" friendlyPos="true"/>
+    <busStop id="CSP2" lane="448867798#2_1" startPos="10.61" endPos="20.61" friendlyPos="true"/>
+    <busStop id="CTP" lane="453761206#7_1" startPos="20.47" endPos="30.47"/>
+    <busStop id="HSM" lane="34772371#0_1" startPos="43.27" endPos="53.27" friendlyPos="true"/>
+    <busStop id="HSM2" lane="-34772371#3_1" startPos="314.23" endPos="324.23" friendlyPos="true"/>
+    <busStop id="HSM3" lane="-13797599#4_1" startPos="259.68" endPos="269.68" friendlyPos="true"/>
+    <busStop id="HSM4" lane="13797599#4_1" startPos="70.66" endPos="80.66" friendlyPos="true"/>
+    <busStop id="MRR1" lane="30912941#2_1" startPos="20.84" endPos="30.84" friendlyPos="true"/>
+    <busStop id="MRR2" lane="453762943#1_1" startPos="24.67" endPos="34.67"/>
+    <busStop id="MTCV" lane="453761206#0_1" startPos="33.19" endPos="43.19"/>
+    <busStop id="OLM" lane="1014684308_1" startPos="19.24" endPos="29.24"/>
+    <busStop id="PISC" lane="1083211596#2_2" startPos="55.80" endPos="65.80" friendlyPos="true"/>
+    <busStop id="SP" lane="453762947_1" startPos="44.63" endPos="54.63" friendlyPos="true"/>
+    <busStop id="SPTO1" lane="910431582_2" startPos="19.59" endPos="29.59" friendlyPos="true"/>
+    <busStop id="SVP1" lane="-39607956#6_1" startPos="22.47" endPos="32.47" friendlyPos="true"/>
+    <busStop id="SVP2" lane="39607956#6_1" startPos="40.54" endPos="50.54" friendlyPos="true"/>
+    <busStop id="VFM1" lane="30912883#1_1" startPos="33.63" endPos="43.63" friendlyPos="true"/>
+    <busStop id="VFM2" lane="-1016388206#5_1" startPos="25.10" endPos="35.10" friendlyPos="true"/>
+    <busStop id="VFM3" lane="1016388206#5_1" startPos="50.12" endPos="60.12" friendlyPos="true"/>
+    <busStop id="VFM6" lane="212710692#0_1" startPos="65.75" endPos="75.75" friendlyPos="true"/>
+    <busStop id="VFM7" lane="-212710692#0_1" startPos="78.71" endPos="88.71" friendlyPos="true"/>
+    <parkingArea id="pa_0" lane="453762947_1" startPos="25.80" endPos="35.80" roadsideCapacity="4"/>
+    <parkingArea id="pa_1" lane="1014684308.33_1" startPos="99.37" endPos="109.37" roadsideCapacity="4"/>
+    <parkingArea id="pa_10" lane="30912941#2_1" startPos="87.21" endPos="97.21" roadsideCapacity="4"/>
+    <parkingArea id="pa_11" lane="39598629#3_1" startPos="45.14" endPos="55.14" friendlyPos="true" roadsideCapacity="4"/>
+    <parkingArea id="pa_12" lane="39587490#0_1" startPos="59.66" endPos="69.66" roadsideCapacity="4"/>
+    <parkingArea id="pa_13" lane="453762943#1_1" startPos="67.28" endPos="77.28" roadsideCapacity="4"/>
+    <parkingArea id="pa_14" lane="-308771431#1_1" startPos="19.95" endPos="29.95" roadsideCapacity="4"/>
+    <parkingArea id="pa_15" lane="39587067_1" startPos="57.15" endPos="67.15" roadsideCapacity="4"/>
+    <parkingArea id="pa_16" lane="39587108#2_1" startPos="36.88" endPos="46.88" roadsideCapacity="4"/>
+    <parkingArea id="pa_17" lane="755512797#1_1" startPos="43.12" endPos="53.12" roadsideCapacity="4"/>
+    <parkingArea id="pa_18" lane="-13797599#4_1" startPos="146.40" endPos="156.40" roadsideCapacity="4"/>
+    <parkingArea id="pa_19" lane="453762946#0_1" startPos="0.00" endPos="10.00" roadsideCapacity="4"/>
+    <parkingArea id="pa_2" lane="1014684308.33_1" startPos="187.13" endPos="197.13" roadsideCapacity="4"/>
+    <parkingArea id="pa_20" lane="453762946#1_1" startPos="8.14" endPos="18.14" roadsideCapacity="4"/>
+    <parkingArea id="pa_21" lane="39590128#0_1" startPos="74.09" endPos="84.09" roadsideCapacity="4"/>
+    <parkingArea id="pa_22" lane="-206544631_1" startPos="22.68" endPos="32.68" roadsideCapacity="4"/>
+    <parkingArea id="pa_23" lane="-39597607#0_1" startPos="91.85" endPos="101.85" roadsideCapacity="4"/>
+    <parkingArea id="pa_24" lane="-39597607#2_1" startPos="10.61" endPos="20.61" friendlyPos="true" roadsideCapacity="4"/>
+    <parkingArea id="pa_25" lane="39597607#2_1" startPos="5.92" endPos="15.92" friendlyPos="true" roadsideCapacity="4"/>
+    <parkingArea id="pa_26" lane="1014684309_1" startPos="96.62" endPos="106.62" roadsideCapacity="4"/>
+    <parkingArea id="pa_27" lane="-13797599#3_1" startPos="9.41" endPos="19.41" roadsideCapacity="4"/>
+    <parkingArea id="pa_28" lane="453761207#1_1" startPos="24.03" endPos="34.03" roadsideCapacity="4"/>
+    <parkingArea id="pa_29" lane="453761206#3_1" startPos="38.25" endPos="48.25" roadsideCapacity="4"/>
+    <parkingArea id="pa_3" lane="1014684308.33_1" startPos="266.66" endPos="276.66" roadsideCapacity="4"/>
+    <parkingArea id="pa_30" lane="13715562_1" startPos="72.75" endPos="82.75" roadsideCapacity="4"/>
+    <parkingArea id="pa_31" lane="306780234#3_1" startPos="53.92" endPos="63.92" roadsideCapacity="4"/>
+    <parkingArea id="pa_32" lane="105637466#1_1" startPos="43.72" endPos="53.72" roadsideCapacity="4"/>
+    <parkingArea id="pa_33" lane="39590262#1_1" startPos="33.81" endPos="43.81" roadsideCapacity="4"/>
+    <parkingArea id="pa_34" lane="-13797599#1_1" startPos="77.28" endPos="87.28" roadsideCapacity="4"/>
+    <parkingArea id="pa_35" lane="13797599#0_1" startPos="67.34" endPos="77.34" roadsideCapacity="4"/>
+    <parkingArea id="pa_36" lane="704509573#3_2" startPos="46.26" endPos="56.26" roadsideCapacity="4"/>
+    <parkingArea id="pa_37" lane="448195881#2_1" startPos="10.12" endPos="20.12" roadsideCapacity="4"/>
+    <parkingArea id="pa_38" lane="448195881#2_1" startPos="69.19" endPos="79.19" friendlyPos="true" roadsideCapacity="4"/>
+    <parkingArea id="pa_39" lane="-448195881#2_1" startPos="38.06" endPos="48.06" roadsideCapacity="4"/>
+    <parkingArea id="pa_4" lane="306780234#2_1" startPos="48.94" endPos="58.94" roadsideCapacity="4"/>
+    <parkingArea id="pa_40" lane="252524487_1" startPos="61.56" endPos="71.56" roadsideCapacity="4"/>
+    <parkingArea id="pa_41" lane="39598760#0_1" startPos="71.87" endPos="81.87" roadsideCapacity="4"/>
+    <parkingArea id="pa_42" lane="39633589_1" startPos="64.40" endPos="74.40" roadsideCapacity="4"/>
+    <parkingArea id="pa_43" lane="456405100#2_1" startPos="38.59" endPos="48.59" roadsideCapacity="4"/>
+    <parkingArea id="pa_44" lane="-1016548268#0_1" startPos="61.39" endPos="69.60" roadsideCapacity="4"/>
+    <parkingArea id="pa_45" lane="39598629#1_1" startPos="59.99" endPos="69.99" roadsideCapacity="4"/>
+    <parkingArea id="pa_46" lane="39598605#1_1" startPos="78.49" endPos="88.49" roadsideCapacity="4"/>
+    <parkingArea id="pa_47" lane="39598589#0_1" startPos="54.30" endPos="64.30" roadsideCapacity="4"/>
+    <parkingArea id="pa_48" lane="-914265946_1" startPos="90.83" endPos="100.83" roadsideCapacity="4"/>
+    <parkingArea id="pa_49" lane="1083211596#2_2" startPos="72.30" endPos="82.30" roadsideCapacity="4"/>
+    <parkingArea id="pa_5" lane="482122892#5_1" startPos="37.32" endPos="47.32" roadsideCapacity="4"/>
+    <parkingArea id="pa_50" lane="39598458#2_1" startPos="60.52" endPos="70.52" roadsideCapacity="4"/>
+    <parkingArea id="pa_51" lane="-1016548268#0_1" startPos="18.64" endPos="28.64" roadsideCapacity="4"/>
+    <parkingArea id="pa_52" lane="-1016548268#1_1" startPos="41.95" endPos="51.95" roadsideCapacity="4"/>
+    <parkingArea id="pa_53" lane="1016548268#0_1" startPos="11.67" endPos="21.67" roadsideCapacity="4"/>
+    <parkingArea id="pa_54" lane="-914265951_1" startPos="134.04" endPos="144.04" roadsideCapacity="4"/>
+    <parkingArea id="pa_55" lane="-914265951_1" startPos="48.19" endPos="58.19" roadsideCapacity="4"/>
+    <parkingArea id="pa_56" lane="448195881#1_1" startPos="14.27" endPos="24.27" roadsideCapacity="4"/>
+    <parkingArea id="pa_57" lane="39598786#1_1" startPos="66.48" endPos="76.48" roadsideCapacity="4"/>
+    <parkingArea id="pa_58" lane="39598786#0_1" startPos="25.05" endPos="31.59" friendlyPos="true" roadsideCapacity="4"/>
+    <parkingArea id="pa_59" lane="39598745#1_1" startPos="41.05" endPos="51.05" roadsideCapacity="4"/>
+    <parkingArea id="pa_6" lane="51228956#1_1" startPos="24.10" endPos="34.10" roadsideCapacity="4"/>
+    <parkingArea id="pa_60" lane="-39601146_1" startPos="102.93" endPos="112.93" roadsideCapacity="4"/>
+    <parkingArea id="pa_61" lane="39598629#4_1" startPos="46.02" endPos="56.02" roadsideCapacity="4"/>
+    <parkingArea id="pa_62" lane="39607956#5_1" startPos="28.77" endPos="38.77" roadsideCapacity="4"/>
+    <parkingArea id="pa_63" lane="39598605#0_1" startPos="102.99" endPos="112.99" roadsideCapacity="4"/>
+    <parkingArea id="pa_64" lane="39598760#1_1" startPos="46.54" endPos="56.54" roadsideCapacity="4"/>
+    <parkingArea id="pa_65" lane="39598589#1_1" startPos="209.99" endPos="219.99" roadsideCapacity="4"/>
+    <parkingArea id="pa_66" lane="39598760#2_1" startPos="49.35" endPos="59.35" roadsideCapacity="4"/>
+    <parkingArea id="pa_67" lane="-39607956#7_1" startPos="40.20" endPos="50.20" roadsideCapacity="4"/>
+    <parkingArea id="pa_68" lane="1016388206#2_1" startPos="60.68" endPos="70.68" roadsideCapacity="4"/>
+    <parkingArea id="pa_69" lane="39598458#1_1" startPos="54.05" endPos="64.05" roadsideCapacity="4"/>
+    <parkingArea id="pa_7" lane="453762944#0_1" startPos="23.99" endPos="33.99" roadsideCapacity="4"/>
+    <parkingArea id="pa_70" lane="1016388206#3_1" startPos="40.33" endPos="50.33" roadsideCapacity="4"/>
+    <parkingArea id="pa_71" lane="212710692#0_1" startPos="91.51" endPos="101.51" roadsideCapacity="4"/>
+    <parkingArea id="pa_72" lane="30912883#1_1" startPos="123.92" endPos="133.92" roadsideCapacity="4"/>
+    <parkingArea id="pa_73" lane="30912883#1_1" startPos="55.11" endPos="65.11" roadsideCapacity="4"/>
+    <parkingArea id="pa_74" lane="-212710702_1" startPos="19.23" endPos="29.23" roadsideCapacity="4"/>
+    <parkingArea id="pa_75" lane="212710696#0_1" startPos="17.59" endPos="27.59" roadsideCapacity="4"/>
+    <parkingArea id="pa_76" lane="212710696#0_1" startPos="90.52" endPos="100.52" roadsideCapacity="4"/>
+    <parkingArea id="pa_77" lane="263330569_1" startPos="52.22" endPos="62.22" roadsideCapacity="4"/>
+    <parkingArea id="pa_78" lane="-914265946_1" startPos="11.72" endPos="21.72" roadsideCapacity="4"/>
+    <parkingArea id="pa_79" lane="30912891_1" startPos="13.14" endPos="23.14" roadsideCapacity="4"/>
+    <parkingArea id="pa_8" lane="51228956#0_1" startPos="22.54" endPos="32.54" roadsideCapacity="4"/>
+    <parkingArea id="pa_80" lane="-39607956#5_1" startPos="50.14" endPos="60.14" roadsideCapacity="4"/>
+    <parkingArea id="pa_81" lane="-39607956#6_1" startPos="37.22" endPos="47.22" roadsideCapacity="4"/>
+    <parkingArea id="pa_82" lane="39598589#1_1" startPos="32.51" endPos="42.51" roadsideCapacity="4"/>
+    <parkingArea id="pa_83" lane="-914265946_1" startPos="177.41" endPos="187.41" roadsideCapacity="4"/>
+    <parkingArea id="pa_84" lane="448568807_1" startPos="144.94" endPos="154.94" roadsideCapacity="4"/>
+    <parkingArea id="pa_85" lane="-1016388206#2_1" startPos="72.39" endPos="82.39" roadsideCapacity="4"/>
+    <parkingArea id="pa_86" lane="448568807_1" startPos="40.48" endPos="50.48" roadsideCapacity="4"/>
+    <parkingArea id="pa_87" lane="-1016388206#5_1" startPos="36.09" endPos="46.09" roadsideCapacity="4"/>
+    <parkingArea id="pa_88" lane="448867798#2_1" startPos="62.02" endPos="72.02" roadsideCapacity="4"/>
+    <parkingArea id="pa_89" lane="448809958_1" startPos="25.59" endPos="35.59" roadsideCapacity="4"/>
+    <parkingArea id="pa_9" lane="482122892#4_1" startPos="13.55" endPos="23.55" roadsideCapacity="4"/>
+    <parkingArea id="pa_90" lane="39609005#0_1" startPos="69.48" endPos="79.48" friendlyPos="true" roadsideCapacity="4"/>
+    <parkingArea id="pa_91" lane="456405094#0_1" startPos="42.07" endPos="52.07" roadsideCapacity="4"/>
+    <parkingArea id="pa_92" lane="-448867798#0_1" startPos="74.20" endPos="84.20" roadsideCapacity="4"/>
+    <parkingArea id="pa_93" lane="-448867798#0_1" startPos="199.15" endPos="209.15" roadsideCapacity="4"/>
+    <parkingArea id="pa_94" lane="448867798#0_1" startPos="134.06" endPos="144.06" roadsideCapacity="4"/>
+    <parkingArea id="pa_95" lane="-868082261#2_1" startPos="25.30" endPos="35.30" roadsideCapacity="4"/>
+    <parkingArea id="pa_96" lane="39609005#6_1" startPos="5.74" endPos="15.74" roadsideCapacity="4"/>
+    <parkingArea id="pa_97" lane="-1016192005#0_1" startPos="0.99" endPos="10.99" roadsideCapacity="4"/>
+    <parkingArea id="pa_98" lane="30912883#2_1" startPos="54.31" endPos="64.31" roadsideCapacity="4"/>
+    <parkingArea id="pa_99" lane="39608490#1_1" startPos="94.01" endPos="104.01" roadsideCapacity="4"/>
+    <parkingArea id="warehouse" lane="E3_1" startPos="41.55" endPos="51.55" friendlyPos="true" roadsideCapacity="4"/>
+</additional>
